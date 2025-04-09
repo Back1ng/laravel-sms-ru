@@ -1,9 +1,9 @@
 <?php
 
-namespace CodersStudio\SmsRu;
+namespace Back1ng\SmsRu;
 
 use Illuminate\Support\ServiceProvider;
-use CodersStudio\SmsRu\Vendor\SmsRu AS SmsRuClient;
+use Back1ng\SmsRu\Vendor\SmsRu AS SmsRuClient;
 
 class SmsRuServiceProvider extends ServiceProvider
 {

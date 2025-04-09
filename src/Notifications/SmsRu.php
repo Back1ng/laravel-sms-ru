@@ -1,8 +1,8 @@
 <?php
 
-namespace CodersStudio\SmsRu\Notifications;
+namespace Back1ng\SmsRu\Notifications;
 
-use CodersStudio\SmsRu\Channels\SmsRuChannel;
+use Back1ng\SmsRu\Channels\SmsRuChannel;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 

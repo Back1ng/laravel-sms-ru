@@ -1,6 +1,6 @@
 <?php
 
-namespace CodersStudio\SmsRu\Facades;
+namespace Back1ng\SmsRu\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,5 +1,5 @@
 <?php
-namespace CodersStudio\SmsRu\Classes;
+namespace Back1ng\SmsRu\Classes;
 
 class SMS
 {

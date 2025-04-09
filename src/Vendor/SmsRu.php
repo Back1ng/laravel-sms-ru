@@ -1,5 +1,5 @@
 <?php
-namespace CodersStudio\SmsRu\Vendor;
+namespace Back1ng\SmsRu\Vendor;
 
 /**
  * Класс для работы с API сайта sms.ru для PHP 5.3 и выше

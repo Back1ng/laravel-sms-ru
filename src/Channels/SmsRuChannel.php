@@ -1,6 +1,6 @@
 <?php
-namespace CodersStudio\SmsRu\Channels;
-use CodersStudio\SmsRu\Facades\SmsRu;
+namespace Back1ng\SmsRu\Channels;
+use Back1ng\SmsRu\Facades\SmsRu;
 use Illuminate\Notifications\Notification;
 
 class SmsRuChannel
