@@ -5,7 +5,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/codersStudio/yandex-money-checkout.svg?style=flat-square)](https://packagist.org/packages/codersStudio/yandex-money-checkout)
 
 ## Install
-`composer require codersstudio/sms-ru`
+`composer require back1ng/sms-ru`
 
 ## Usage
 Package for send sms via sms.ru. Based on official PHP class http://sms.ru/php.
@@ -29,7 +29,7 @@ Examples:
     
 notify method (notifiable should have phone property): 
    
-    use CodersStudio\SmsRu\Notifications\SmsRu;
+    use Back1ng\SmsRu\Notifications\SmsRu;
     ...
     $user->notify(new SmsRu('test'));
 
