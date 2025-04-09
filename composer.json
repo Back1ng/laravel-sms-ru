@@ -1,5 +1,5 @@
 {
-    "name": "codersstudio/sms-ru",
+    "name": "back1ng/sms-ru",
     "description": "Package for send sms via sms.ru. Based on official PHP class http://sms.ru/php.",
     "type": "package",
     "license": "MIT",
@@ -13,17 +13,17 @@
         }
     ],
     "require": {
-        "illuminate/support": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
         "ext-curl": "*"
     },
     "autoload": {
         "psr-4": {
-            "CodersStudio\\SmsRu\\": "./src"
+            "Back1ng\\SmsRu\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CodersStudio\\SmsRu\\Tests\\": "tests/"
+            "Back1ng\\SmsRu\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "CodersStudio\\SmsRu\\SmsRuServiceProvider"
+                "Back1ng\\SmsRu\\SmsRuServiceProvider"
             ],
             "aliases": {
-                "Notifications": "CodersStudio\\SmsRu\\Facades\\SmsRu"
+                "Notifications": "Back1ng\\SmsRu\\Facades\\SmsRu"
             }
         }
     },
